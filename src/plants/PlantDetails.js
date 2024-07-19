@@ -19,6 +19,7 @@ export function PlantDetails() {
 
     useEffect(() => {
         getPlantByTaxonId();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [plantId])
 
     if (!plant.name) {
