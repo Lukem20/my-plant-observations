@@ -1,0 +1,26 @@
+.plant-page-link {
+	text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.plant-names {
+    padding: 0.75em 1em 0.25em 1em;
+}
+
+.plant-names h3 {
+    color: var(--paragraph-color);
+	font-size: 1.35em;
+    line-height: 1em;
+}
+
+.plant-names h4 {
+    color: var(--paragraph-color);
+    font-size: 1.15em;
+    line-height: 1.15em;
+}
+
+.plant-list img {
+    object-fit: cover;
+    width: 100%;
+}

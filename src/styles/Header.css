@@ -1,0 +1,14 @@
+header div {
+    background-color: var(--headline-bg-color);
+    border-radius: 4px;
+    padding: 1em 1em 0.2em 1em;
+    max-width: 700px;
+}
+
+header h1 {
+    color: var(--headline-text-color);
+}
+
+header p {
+    margin: 1em 0;
+}

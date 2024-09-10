@@ -1,59 +1,15 @@
-input {
-	padding: 0.25em 0.2em;
-	background-color: var(--main-bg-color);
-	border: 2px solid var(--tertiary-bg-color);
-	border-radius: 3px;
-	margin: 1em 0 2em 0.25em;
-}
-
-.plant-list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 0.75em;
-}
-
-.plant-page-link {
-	text-decoration: none;
-}
-
-.plant-list li {
-	background-color: var(--main-bg-color);
-	box-shadow: 1px 1px 10px rgba(140, 0, 255, 0.15);
-	border-radius: 3px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-}
-.plant-list li:hover {
-	box-shadow: 1px 1px 10px var(--call-to-action);
-}
-
-.plant-list h3 {
-	padding: 0.5em 0.25em 0 0.25em;
-	font-size: 1.5em;
-	margin-top: 0;
-	text-align: center;
-}
-
-.plant-list img {
-	width: 100%;
-}
-
 .banner {
 	position: relative;
 }
 
 .banner h1 {
 	position: absolute;
-	font-size: 3.5em;
+	font-size: 2em;
 	left: 0.5em;
 	width: min-content;
 	background-color: var(--tertiary-bg-color);
-	border-radius: 5px;
-	padding: 0.5em;
+	border-radius: 0px 0px 5px 5px;
+	padding: 0.25em 0.5em;
 }
 
 .banner-img {
