@@ -1,14 +1,17 @@
 import PropTypes from 'prop-types';
+import '../styles/Filter.css';
 
 export function Filter({ filter, setFilter }) {
     return (
-        <label>
-            Filter by taxon name:
-            <input 
-                onChange={(e) => setFilter( e.target.value )} 
-                value={ filter } 
-            />
-        </label>
+        <div className='filter'>
+            <label>
+                Filter plants by taxon name:
+                <input 
+                    onChange={(e) => setFilter( e.target.value )} 
+                    value={ filter } 
+                />
+            </label>
+        </div>
     );
 }
 

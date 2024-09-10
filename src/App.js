@@ -1,10 +1,11 @@
-import { PlantList } from './plants/PlantList'
+import { PlantList } from './plants/PlantList';
+import { Header } from './components/Header';
 import './App.css';
 
 function App() {
   return (
     <main className="App">
-      <h1>Plants seen by Luke Moore</h1>
+      <Header></Header>
       <PlantList />
     </main>
   );

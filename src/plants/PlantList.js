@@ -1,6 +1,7 @@
-import { Plant } from "../plants/Plant";
+import { PlantListItem } from "../plants/PlantLListItem";
 import { Filter } from "../components/Filter";
 import { useState, useEffect } from "react";
+import "../styles/PlantList.css";
 
 const API_URL = "https://api.inaturalist.org/v1/observations?native=true&taxon_id=47126&user_id=lukemoore&quality_grade=research&order=desc&order_by=created_at";
 
@@ -29,7 +30,7 @@ export function PlantList() {
                 { plants.filter((plant) => plant.taxon.name.toLowerCase().includes(filter.toLowerCase()))
                     .map(( plant ) => {
                     return (
-                        <Plant key={plant.id} plant={plant} />
+                        <PlantListItem key={plant.id} plant={plant} />
                     );
                 }) }
             </ul>
