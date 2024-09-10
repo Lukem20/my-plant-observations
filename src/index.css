@@ -1,12 +1,13 @@
+/* Global stylesheet */
 html {
 	height: 100%;
-	--main-bg-color: #FFFFFE;
-	--secondary-bg-color: #E3F6F5;
+	--headline-text-color: #FAFEFF;
+	--headline-bg-color: #104B39;
+	--main-bg-color: #EBF7F7;
+	--secondary-bg-color: #FFFFFF;
 	--tertiary-bg-color: #BAE8E8;
-	--headline-color: #272343;
 	--paragraph-color: #2D334A;
 	--button-text-color: #272343;
-	--button-color: #FFD803;
 	--call-to-action: #FFD803;
 }
 
@@ -16,19 +17,15 @@ body {
 	padding: 2em;
 	font: 100%/1.5 'Helvetica Neue', sans-serif;
 	text-align: left;
-	background-color: var(--secondary-bg-color);
+	background-color: var(--main-bg-color);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-
-section {
-	margin-bottom: 3em;
 }
 
 p {
 	margin: 0;
 	font-weight: 225;
-	line-height: 1.8em;
+	line-height: 1.6em;
 	font-size: 1.05em;
 } p + p { text-indent: 1em; }
 
@@ -39,6 +36,8 @@ h1 {
 	color: var(--headline-color);
 	font-size: 4.096em;
 	line-height: 0.95em;
+	letter-spacing: 0.75px;
+	margin-bottom: 0.25em;
 }
 
 h2 {
